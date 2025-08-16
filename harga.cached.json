@@ -1,0 +1,92 @@
+{
+  "cuci_ac": [
+    {
+      "nama": "Cuci AC Standar",
+      "deskripsi": "Pembersihan rutin unit indoor & outdoor.",
+      "harga": 60000
+    },
+    {
+      "nama": "Cuci AC Premium (Steam & Disinfektan)",
+      "deskripsi": "Pembersihan mendalam dengan cairan anti-bakteri.",
+      "harga": 150000
+    },
+    {
+      "nama": "Cuci AC Overhaul (Turun Unit)",
+      "deskripsi": "Bongkar total unit indoor untuk pembersihan menyeluruh di darat.",
+      "harga": 300000
+    }
+  ],
+  "perbaikan_ac": [
+    {
+      "nama": "AC Tidak Dingin",
+      "deskripsi": "Analisa & perbaikan masalah pendinginan, termasuk pengecekan tekanan freon.",
+      "harga": "Mulai dari Rp 150.000 (tergantung kerusakan)"
+    },
+    {
+      "nama": "AC Bocor Air",
+      "deskripsi": "Perbaikan kebocoran pada unit indoor, termasuk pembersihan jalur drainase.",
+      "harga": "Mulai dari Rp 125.000"
+    },
+    {
+      "nama": "AC Berisik atau Mati Total",
+      "deskripsi": "Diagnosa & perbaikan masalah kelistrikan, modul PCB, atau kerusakan komponen.",
+      "harga": "Harga setelah pengecekan"
+    }
+  ],
+  "isi_tambah_freon": [
+    {
+      "nama": "Tambah Freon R32 / R410A (0.5 - 1 PK)",
+      "deskripsi": "Penambahan freon jika tekanan sedikit berkurang.",
+      "harga": 250000
+    },
+    {
+      "nama": "Isi Ulang Full Freon R32 / R410A (0.5 - 1 PK)",
+      "deskripsi": "Pengisian penuh setelah perbaikan kebocoran (sudah termasuk vakum).",
+      "harga": 450000
+    }
+  ],
+  "paket": [
+    {
+      "nama": "PAKET HEMAT 3 BULANAN",
+      "harga": 300000,
+      "hemat": 60000,
+      "fitur": [
+        "3x Cuci AC Standar (1x per bulan)",
+        "Free pengecekan freon tiap kunjungan",
+        "Prioritas jadwal"
+      ]
+    },
+    {
+      "nama": "PAKET KANTOR KOMPLIT",
+      "harga": 1200000,
+      "hemat": 300000,
+      "fitur": [
+        "Cuci bulanan untuk 5 Unit AC (selama 6 bulan)",
+        "Laporan pemeliharaan tahunan",
+        "Diskon 20% untuk perbaikan"
+      ]
+    }
+  ],
+  "instalasi_dan_lainnya": [
+    {
+      "nama": "Bongkar Pasang AC (0.5 - 1 PK)",
+      "harga": 400000,
+      "deskripsi": "*Hanya Jasa Belum Termasuk Material"
+    },
+    {
+      "nama": "Jasa Inspeksi & Pengecekan Umum",
+      "harga": 75000,
+      "deskripsi": "Pengecekan menyeluruh kondisi AC dan saran perbaikan (biaya akan dikurangi jika lanjut servis)."
+    }
+  ],
+  "promo_spesial": [
+    "Garansi Servis 30 Hari",
+    "Diskon 10% untuk Pelajar/Mahasiswa (tunjukkan kartu pelajar)",
+    "Free Transport untuk area dalam radius 5 KM"
+  ],
+  "area_layanan": [
+    { "kota_utama": "Jakarta", "cakupan": ["All Area", "Tangerang", "Bekasi", "Depok", "dll"] },
+    { "kota_utama": "Palembang", "cakupan": ["Kota"] },
+    { "kota_utama": "Medan", "cakupan": ["Kota", "Deli Serdang", "Binjai", "dll"] }
+  ]
+}
